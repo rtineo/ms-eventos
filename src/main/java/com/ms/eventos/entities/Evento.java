@@ -5,8 +5,11 @@ import java.lang.Integer;
 
 @Entity
 @Table (name = "eventos")
+
+
 public class Evento {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String descripcion;
     private Date fechaEvento;
