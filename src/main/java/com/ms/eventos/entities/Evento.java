@@ -1,7 +1,6 @@
 package com.ms.eventos.entities;
 import jakarta.persistence.*;
 import java.util.Date;
-import java.lang.Integer;
 
 @Entity
 @Table (name = "eventos")

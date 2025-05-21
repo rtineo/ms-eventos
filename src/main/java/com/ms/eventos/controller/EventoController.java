@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.DeleteMapping;
 
 @RestController
-@RequestMapping("/api2/eventos")
+@RequestMapping("/eventos")
 public class EventoController {
     private final EventoService eventoService;
 
